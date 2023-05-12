@@ -1,0 +1,12 @@
+aeneas==1.7.3.0
+fuzzywuzzy
+tokenize_uk
+whisperx @ git+https://github.com/m-bain/whisperx.git@main
+numpy
+moviepy
+pytube
+pydub
+torch>=2.0.0
+torchaudio>=2.0.1
+torchtext>=0.15.1
+bs4
