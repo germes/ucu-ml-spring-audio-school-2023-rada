@@ -24,7 +24,7 @@ output example
 }
 ```
 
-## Aligner
+### Aligner
 
 Usage:
 
