@@ -1,7 +1,8 @@
-from parser_stenogr_rada import RadaStenoParser
-import requests
-import json
 import argparse
+import json
+
+import requests
+from parser_stenogr_rada import RadaStenoParser
 
 parser = argparse.ArgumentParser(description="Script for parsing transcripts from rada.gov.ua",
                                  formatter_class=argparse.ArgumentDefaultsHelpFormatter)

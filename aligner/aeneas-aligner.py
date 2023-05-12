@@ -9,7 +9,11 @@ from aeneas.task import Task, TaskConfiguration
 from aeneas.textfile import TextFile, TextFragment
 
 
-def forced_alignment(text: List[str], audio_path: str, language=Language.UKR, verbose=False, syncmap_path=None):
+def forced_alignment(text: List[str], 
+                     audio_path: str, 
+                     language=Language.UKR, 
+                     verbose=False, 
+                     syncmap_path=None):
     config = TaskConfiguration()
     config[gc.PPN_TASK_LANGUAGE] = language
     config[gc.PPN_TASK_OS_FILE_FORMAT] = SyncMapFormat.JSON

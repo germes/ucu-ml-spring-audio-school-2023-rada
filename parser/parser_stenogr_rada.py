@@ -1,8 +1,7 @@
-from bs4 import BeautifulSoup
-from bs4 import PageElement
-from datetime import datetime
 import re
-import logging
+from datetime import datetime
+
+from bs4 import BeautifulSoup, PageElement
 
 
 class RadaStenoParser:
